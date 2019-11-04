@@ -1,0 +1,38 @@
+{
+  "name": "smart-magic-cards",
+  "version": "1.0.0",
+  "description": "Join Smart by simply performing a magic trick",
+  "main": "index.html",
+  "scripts": {
+    "pretest": "./node_modules/.bin/eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "sass css/index.scss css/index.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartpension/smart-magic-cards.git"
+  },
+  "keywords": [
+    "Frontend",
+    "test",
+    "smart",
+    "magic",
+    "trick",
+    "interview"
+  ],
+  "author": "Sam De Maeyer / Smart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smartpension/smart-magic-cards/issues"
+  },
+  "homepage": "https://github.com/smartpension/smart-magic-cards#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "sass": "^1.23.3"
+  }
+}
