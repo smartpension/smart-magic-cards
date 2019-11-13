@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Museo";
+  src: url("../fonts/Museo-Sans-500.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-400.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-family: "Museo", sans-serif;
+}
