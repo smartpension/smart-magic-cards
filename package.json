@@ -6,6 +6,7 @@
   "scripts": {
     "pretest": "./node_modules/.bin/eslint .",
     "test": "./node_modules/.bin/cypress run",
+    "serve-test": "./node_modules/.bin/cypress open",
     "develop": "sass css/index.scss css/index.css --watch"
   },
   "repository": {
@@ -30,14 +31,14 @@
   },
   "homepage": "https://github.com/smartpension/smart-magic-cards#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "minimist": "1.2.3"
+    "bootstrap": "^4.5.3",
+    "minimist": "1.2.5"
   },
   "devDependencies": {
-    "cypress": "^3.6.0",
-    "eslint": "^6.6.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "sass": "^1.23.3"
+    "cypress": "^5.3.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "sass": "^1.27.0"
   }
 }

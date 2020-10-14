@@ -11,19 +11,19 @@
 </head>
 <body class="bg-primary">
   <nav class="navbar navbar-dark bg-primary border-1 border-bottom border-light">
-    <a class="navbar-brand" href="https://www.autoenrolment.co.uk" target="_blank" rel="noopener noreferrer">
+    <a class="navbar-brand ml-5" href="https://www.smartpension.co.uk" target="_blank" rel="noopener noreferrer">
       <img src="assets/smart-logo.svg" height="40" alt="smart-logo">
     </a>
   </nav>
   <h1 class="text-white text-center pt-4">Become a software engineer at Smart</h1>
   <h3 class="text-white text-center">Join Smart by simply performing a magic trick</h3>
-  <p class="text-white text-center py-4">
+  <p class="text-white text-center py-4" id="description">
     A magician has a deck of cards, 52 cards, 13 of each suit (Hearts, Diamonds, Clubs and Spades).<br>
     He will show us all of the cards and we will see that they are ordered and sorted by suit.<br>
     We are asked to shuffle the deck.<br>
-    Then the magician takes the cards together and shakes them.<br>
-    When he reveals the deck of cards once more, the cards have been ordered and sorted as before, as if it was a new deck of cards.<br>
-    All the hearts are together and sorted from 1 to the King.
+    Then the magician askes to pick a single card.<br>
+    When the magician reveals the deck of cards once more, the picked card is removed as well as all the related valued cards.<br>
+    Eg. the 8 of hears it picked, now all the 8's are removed from the deck.
  <br>
   </p>
   <div class="game-container">
@@ -31,6 +31,9 @@
       <button type="button" id="start-game" class="btn btn-lg btn-secondary">Let's get started</button>
     </div>
     <div class="cards-wrapper mx-4 position-relative text-center">
+    </div>
+    <div class="selected-card-wrapper d-flex justify-content-center pt-4">
+      <div class="selected-cards"></div>
     </div>
   </div>
 </body>
